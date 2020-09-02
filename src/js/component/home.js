@@ -10,8 +10,25 @@ export function Home() {
 	return (
 		<div>
 			<Navbar />
-			<Jumbotron />
-			<Card />
+			<div className="container">
+				<Jumbotron />
+				<div>
+					<div className="row">
+						<div className="col-3">
+							<Card />
+						</div>
+						<div className="col-3">
+							<Card />
+						</div>
+						<div className="col-3">
+							<Card />
+						</div>
+						<div className="col-3">
+							<Card />
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 }
