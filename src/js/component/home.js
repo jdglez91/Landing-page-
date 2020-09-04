@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Jumbotron from "./Jumbotron";
 import Card from "./Card";
+import Footer from "./Footer";
 
 //include images into your bundle
 
@@ -28,6 +29,7 @@ export function Home() {
 						</div>
 					</div>
 				</div>
+				<Footer />
 			</div>
 		</div>
 	);
